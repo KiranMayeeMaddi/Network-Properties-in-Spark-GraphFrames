@@ -7,7 +7,9 @@ PREREQUISITE
 Run the following commands in any new terminal window before executing a file. This ensures that python 2 is used instead of the default python 3.
 
 export SPARK_HOME=/usr/local/spark-1.6.2-bin-hadoop2.6
+
 export PYSPARK_PYTHON=/usr/bin/python2
+
 export PYSPARK_DRIVER_PYTHON=/usr/bin/python2
 pip install pandas
 ================================================================
